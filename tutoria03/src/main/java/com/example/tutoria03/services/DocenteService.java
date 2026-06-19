@@ -3,7 +3,6 @@ package com.example.tutoria03.services;
 import java.util.ArrayList;
 
 import com.example.tutoria03.exceptions.ConflictException;
-import com.example.tutoria03.exceptions.StudentNotFound;
 import com.example.tutoria03.exceptions.TeacherNotFound;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -6,7 +6,7 @@ info:
     Permite crear, consultar, actualizar y eliminar registros de estudiantes.
   version: 1.0.0
   contact:
-    name: Juan Sosa, Joan Diaz, Juan Cardenas
+    name: Joan Diaz, Juan Cardenas
 
 servers:
   - url: http://localhost:8080

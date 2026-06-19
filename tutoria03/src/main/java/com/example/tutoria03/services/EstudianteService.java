@@ -29,6 +29,8 @@ public class EstudianteService {
         return estudianteRepository.save(estudiante);
     }
 
+    //mejorar logica de update//
+    
     public Estudiante update(Estudiante estudiante,int id){
         if (estudianteRepository.existsByCorreo(estudiante.getCorreo())) throw new ConflictException("El estudiante con ese correo ya existe");
         if(existeEstudiante(id)) estudiante.setId(id);
