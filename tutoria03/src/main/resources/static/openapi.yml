@@ -16,6 +16,9 @@ tags:
   - name: Estudiantes
     description: Operaciones sobre el recurso Estudiante
 
+  - name: Docentes
+    description: Operaciones sobre el recurso Docente
+
 paths:
   /estudiantes:
     get:
@@ -307,10 +310,6 @@ description: >
   API REST para la gestión de docentes.
   Permite crear, consultar, actualizar y eliminar registros de docentes.
   version: 1.0.0
-
-tags:
-  - name: Docentes
-    description: Operaciones sobre el recurso Docente
 
 
 paths:
