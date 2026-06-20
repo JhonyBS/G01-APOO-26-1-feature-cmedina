@@ -248,7 +248,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResponse'
-  /estudiantes/{id}:
+  /docentes/{id}:
     put:
       tags:
         - Docentes
